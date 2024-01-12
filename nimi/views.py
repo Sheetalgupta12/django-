@@ -35,8 +35,6 @@ def loginpage(request):
 
 def homepage(request):
     return render(request,"home.html")
-def Logout(request):
-    logout(request)
-    return redirect("login")
+
 
 
